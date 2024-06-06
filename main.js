@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //number of guess
     let numberOfGuess = 5;
-    const countDown = numberOfGuess-- //decrement number of guess
+    const countDown = numberOfGuess--; //decrement number of guess
 
     //get html element
     const greet = document.querySelector('h2');
@@ -43,12 +43,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if(!localStorage.getItem('user')){
             localStorage.setItem('user', userName);
         }
-        greet.innerHTML = `Hello, ${userName}`;b //greet user
+        greet.innerHTML = `Hello, ${userName}`;//greet user
         
     }else{
         alert("Invalid input");
         window.userName
-        window.location.href = "404.html" //display another page otherwise
+        window.location.href = "404.html"; //display another page otherwise
     }
 
     //store user name back into localstorage
