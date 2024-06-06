@@ -1,0 +1,135 @@
+html, body, *{
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: #f7f7f7;
+}
+
+.main-container{
+    background: #fff;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 4px 4px 15px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+.heading-container{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.heading-container h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(46, 46, 46);
+}
+
+.heading-container p{
+    color: rgb(105, 105, 105);
+}
+
+
+form {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+form label{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}
+form input{
+    border: 1px solid rgb(177, 175, 175);
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+    transition: box-shadow 2s;
+    color: gray;
+}
+
+form input:focus{
+    outline: 1px solid rgb(0, 191, 255);
+    box-shadow: 2px 2px 9px 2px rgba(0, 98, 255, 0.4);
+}
+
+form button{
+    padding: 5px 10px;
+    background: rgb(0, 85, 255);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: box-shadow 4ms;
+}
+
+form button:hover{
+    box-shadow: 2px 2px 9px 2px rgba(0, 98, 255, 0.4);
+}
+
+.message{
+    text-align: center;
+    padding: 10px 10px 60px 10px;
+    color: rgb(86, 86, 86);
+}
+
+.message span{
+    color: red;
+    display: inline-block;
+}
+
+.message small{
+    font-size: 1.3rem;
+}
+
+.btn-group{
+    margin: 20px;
+}
+
+#tryBtn{
+    border: none;
+    padding: 10px 15px;
+    background: lightblue;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-bottom:10px;
+}
+
+#tryBtn a{
+    color: #000;
+    text-decoration: none;
+}
+#tryBtn:hover{
+    background: none;
+    border: 2px solid lightblue;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.success{
+    color: green;
+    font-size: 2rem;
+}
+
+.gameOver{
+    color: red;
+    font-size: 2rem;
+}

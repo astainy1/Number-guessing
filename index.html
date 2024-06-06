@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess Number</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="heading-container">
+            <h2></h2>
+            <p>Welcome to my number guessing game. <br>You have 5 guesses to make.</p>
+            
+        </div>
+        <div>
+            <form>
+                <div>
+                    <label for="userGuess">I thought of certain number. What is that number?</label>
+                </div>
+                <div>
+                    <input type="text" id="userGuess" name="number" placeholder="Enter integer number" required>
+                    <button type="submit">Guess</button>
+                </div>
+            </form>
+        </div>
+        <div class="message">
+            <span></span><br>
+            <small></small>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
